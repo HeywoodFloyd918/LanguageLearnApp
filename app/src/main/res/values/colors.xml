@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основной голубой — как фон иконки -->
+    <color name="app_blue_primary">#5C8DD6</color>
+    <!-- Тёмный голубой — для статус-бара -->
+    <color name="app_blue_dark">#3D5A8A</color>
+    <!-- Светлый голубой — фон иконки -->
+    <color name="app_blue_light">#B6D9F2</color>
+    <!-- Акцент -->
+    <color name="app_accent">#5C8DD6</color>
+</resources>

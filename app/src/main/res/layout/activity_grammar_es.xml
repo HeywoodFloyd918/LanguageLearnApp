@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingTop="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gramática española"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Шпаргалка по самым важным правилам испанского."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <!-- SER vs ESTAR -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ser vs Estar — два глагола «быть»"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ser — для постоянного. Estar — для временного состояния."
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="SER (постоянное)"
+                    android:textStyle="bold" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="yo soy" />
+                    <TextView style="@style/GrammarRussianCell" android:text="я есть" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="nosotros somos" />
+                    <TextView style="@style/GrammarRussianCell" android:text="мы есть" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="tú eres" />
+                    <TextView style="@style/GrammarRussianCell" android:text="ты есть" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="ellos son" />
+                    <TextView style="@style/GrammarRussianCell" android:text="они есть" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="él/ella es" />
+                    <TextView style="@style/GrammarRussianCell" android:text="он/она есть" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="" />
+                    <TextView style="@style/GrammarRussianCell" android:text="" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="ESTAR (временное)"
+                    android:textStyle="bold" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="yo estoy" />
+                    <TextView style="@style/GrammarRussianCell" android:text="я нахожусь" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="nosotros estamos" />
+                    <TextView style="@style/GrammarRussianCell" android:text="мы находимся" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="tú estás" />
+                    <TextView style="@style/GrammarRussianCell" android:text="ты находишься" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="ellos están" />
+                    <TextView style="@style/GrammarRussianCell" android:text="они находятся" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="él/ella está" />
+                    <TextView style="@style/GrammarRussianCell" android:text="он/она находится" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="" />
+                    <TextView style="@style/GrammarRussianCell" android:text="" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Пример: Soy estudiante — Я студент. Estoy cansado — Я устал."
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- PRESENTE REGULAR -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Presente de indicativo — настоящее время"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Три группы глаголов: -ar, -er, -ir. Окончания зависят от группы."
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="-AR (hablar — говорить)"
+                    android:textStyle="bold" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="yo hablo" />
+                    <TextView style="@style/GrammarRussianCell" android:text="я говорю" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="nosotros hablamos" />
+                    <TextView style="@style/GrammarRussianCell" android:text="мы говорим" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="tú hablas" />
+                    <TextView style="@style/GrammarRussianCell" android:text="ты говоришь" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="ellos hablan" />
+                    <TextView style="@style/GrammarRussianCell" android:text="они говорят" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="él/ella habla" />
+                    <TextView style="@style/GrammarRussianCell" android:text="он/она говорит" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="" />
+                    <TextView style="@style/GrammarRussianCell" android:text="" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="-ER (comer — есть)"
+                    android:textStyle="bold" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="yo como" />
+                    <TextView style="@style/GrammarRussianCell" android:text="я ем" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="nosotros comemos" />
+                    <TextView style="@style/GrammarRussianCell" android:text="мы едим" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="tú comes" />
+                    <TextView style="@style/GrammarRussianCell" android:text="ты ешь" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="ellos comen" />
+                    <TextView style="@style/GrammarRussianCell" android:text="они едят" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="él/ella come" />
+                    <TextView style="@style/GrammarRussianCell" android:text="он/она ест" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="" />
+                    <TextView style="@style/GrammarRussianCell" android:text="" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="-IR (vivir — жить)"
+                    android:textStyle="bold" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="yo vivo" />
+                    <TextView style="@style/GrammarRussianCell" android:text="я живу" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="nosotros vivimos" />
+                    <TextView style="@style/GrammarRussianCell" android:text="мы живём" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="tú vives" />
+                    <TextView style="@style/GrammarRussianCell" android:text="ты живёшь" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="ellos viven" />
+                    <TextView style="@style/GrammarRussianCell" android:text="они живут" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarHebrewCell" android:text="él/ella vive" />
+                    <TextView style="@style/GrammarRussianCell" android:text="он/она живёт" />
+                    <TextView style="@style/GrammarHebrewCell" android:text="" />
+                    <TextView style="@style/GrammarRussianCell" android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ARTÍCULOS -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Артикли — el / la / los / las"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="В испанском у каждого существительного есть род. Артикль согласуется с родом и числом."
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarDescCell" android:text="el — м.р. ед.ч." />
+                    <TextView style="@style/GrammarEndingCell" android:text="" />
+                    <TextView style="@style/GrammarExampleCell" android:text="el libro" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarDescCell" android:text="la — ж.р. ед.ч." />
+                    <TextView style="@style/GrammarEndingCell" android:text="" />
+                    <TextView style="@style/GrammarExampleCell" android:text="la casa" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarDescCell" android:text="los — м.р. мн.ч." />
+                    <TextView style="@style/GrammarEndingCell" android:text="" />
+                    <TextView style="@style/GrammarExampleCell" android:text="los libros" />
+                </LinearLayout>
+                <LinearLayout style="@style/GrammarRow">
+                    <TextView style="@style/GrammarDescCell" android:text="las — ж.р. мн.ч." />
+                    <TextView style="@style/GrammarEndingCell" android:text="" />
+                    <TextView style="@style/GrammarExampleCell" android:text="las casas" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Подсказка: слова на -o чаще м.р., на -a чаще ж.р."
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

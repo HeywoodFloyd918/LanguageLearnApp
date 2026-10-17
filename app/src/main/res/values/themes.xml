@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MoyIvrit" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/app_blue_primary</item>
+        <item name="colorPrimaryDark">@color/app_blue_dark</item>
+        <item name="colorAccent">@color/app_accent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Приложение в разработке"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Приложение ещё дорабатывается. Возможны следующие недочёты:\n\n• Озвучивание слов на иврите пока работает не идеально и может ошибаться.\n\n• Последние два режима тренировки (с пропущенным словом) также работают не идеально — иногда предложения или варианты ответа могут быть составлены некорректно.\n\nСпасибо за понимание!"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>

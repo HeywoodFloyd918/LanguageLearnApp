@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Hebrew</string>
+
+    <!-- Main -->
+    <string name="my_folders">My folders</string>
+    <string name="create_folder">+ Create folder</string>
+    <string name="folder_name_hint">Folder name</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="reset_progress_in_folder">Reset word progress in folder</string>
+    <string name="merge_folders_link">merge folders</string>
+    <string name="merge_folders_title">Merge folders</string>
+    <string name="merge_folders_hint">Merged folder name</string>
+    <string name="choose_folders_for_merge">Choose folders to merge:</string>
+    <string name="merge">Merge</string>
+    <string name="need_min_two_folders">At least 2 folders required to merge</string>
+    <string name="choose_min_two_folders">Choose at least 2 folders</string>
+    <string name="enter_name">Enter a name</string>
+    <string name="folders_merged">Folders merged into "%1$s"</string>
+    <string name="delete_folder_q">Delete folder?</string>
+    <string name="delete_folder_msg">Folder "%1$s" and all its words will be deleted.</string>
+    <string name="reset_progress_q">Reset progress?</string>
+    <string name="reset_progress_msg">Progress for all words in "%1$s" will be reset.</string>
+    <string name="reset">Reset</string>
+    <string name="rename_folder">Rename folder</string>
+    <string name="folder_label">Folder "%1$s"</string>
+    <string name="words_count">Words: %1$d</string>
+    <string name="changed_at">Changed: %1$s</string>
+
+    <!-- Drawer menu -->
+    <string name="menu">Menu</string>
+    <string name="settings">Settings</string>
+    <string name="add_word">Add word</string>
+    <string name="training">Training</string>
+    <string name="grammar">Grammar</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_section">Learning language</string>
+    <string name="change_language">Change learning language</string>
+    <string name="change_base_language">Change native language</string>
+    <string name="content_section">Learning content</string>
+    <string name="add_starters">Add starter words</string>
+    <string name="add_starters_desc">Basic folders and words for the current language</string>
+    <string name="add_starters_q">Add starter words?</string>
+    <string name="add_starters_msg">Basic folders and words for %1$s will be added. Existing folders are untouched.</string>
+    <string name="add">Add</string>
+    <string name="added_words_count">Added words: %1$d</string>
+    <string name="data_section">Data</string>
+    <string name="export">Export data</string>
+    <string name="export_desc">All languages in one CSV file</string>
+    <string name="import_data">Import data</string>
+    <string name="import_desc">Load words from CSV file</string>
+    <string name="exporting">Exporting…</string>
+    <string name="importing">Importing…</string>
+    <string name="file_saved">File saved: %1$s</string>
+    <string name="import_done">Import done: %1$d words</string>
+    <string name="import_empty">File contains no words</string>
+    <string name="speech_section">Speech</string>
+    <string name="speak_card">Speak words from cards</string>
+    <string name="speak_card_desc">If disabled, the speaker icon on cards is hidden</string>
+    <string name="progress_section">Learning progress</string>
+    <string name="reset_all_progress">Reset learning progress</string>
+    <string name="reset_all_progress_desc">Reset progress for all words in current language</string>
+    <string name="reset_all_progress_q">Reset progress?</string>
+    <string name="reset_all_progress_msg">Progress for all saved words (%1$s) will be reset. Words and folders are kept.</string>
+    <string name="progress_reset">Progress reset</string>
+
+    <string name="learning_language_label">Learning language</string>
+    <string name="native_language_label">Native language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="language_changed">Language changed: %1$s</string>
+
+    <!-- Restart starter folders -->
+    <string name="recreate_starters_title">Change native language</string>
+    <string name="recreate_starters_msg">Starter folders were created in the previous native language. Recreate them for the new language? Existing starter folders will be deleted.</string>
+    <string name="recreate_starters_yes">Recreate</string>
+    <string name="recreate_starters_no">Keep as is</string>
+
+    <!-- Search -->
+    <string name="search_hint_native">Enter a word in English…</string>
+    <string name="search_button">Search</string>
+    <string name="searching">Searching for translation…</string>
+    <string name="found">Found: %1$d</string>
+    <string name="enter_word_for_search">Enter a word to search</string>
+    <string name="translation_error">Translation error: %1$s</string>
+    <string name="search_tip_title">Search tip</string>
+    <string name="search_tip_text">Due to language peculiarities, when searching verbs and prepositions it is recommended to search not a single word but a phrase or short sentence.\n\nFor example, not "read" but "he reads".\nNot "on" but "on the table".</string>
+    <string name="got_it">Got it</string>
+    <string name="do_not_remind">Don\'t remind again</string>
+
+    <!-- Detail -->
+    <string name="learned">✓ Learned</string>
+    <string name="learning_progress">Learning progress: %1$d / 5</string>
+    <string name="edit">Edit</string>
+    <string name="speak">Speak</string>
+    <string name="loading_speech">Loading speech…</string>
+    <string name="speech_error">Speech error: %1$s</string>
+    <string name="save_short">Save</string>
+    <string name="delete_short">Delete</string>
+
+    <!-- Edit word -->
+    <string name="edit_word_title">Data for word (%1$s)</string>
+    <string name="label_native">Word in native language</string>
+    <string name="label_target_he">Word in Hebrew</string>
+    <string name="label_target_en">Word in English</string>
+    <string name="label_target_es">Word in Spanish</string>
+    <string name="hint_native">Example: horse</string>
+    <string name="hint_target_he">Example: סוס</string>
+    <string name="hint_target_en">Example: horse</string>
+    <string name="hint_target_es">Example: caballo</string>
+    <string name="gender_label">Gender (optional)</string>
+    <string name="gender_male">Masculine (m)</string>
+    <string name="gender_female">Feminine (f)</string>
+    <string name="gender_none">Not specified</string>
+    <string name="folder_label2">Save to folder</string>
+    <string name="comment_label">Comment (optional)</string>
+    <string name="comment_hint">Your comment…</string>
+    <string name="save_word">Save</string>
+    <string name="save_changes">Save changes</string>
+    <string name="saving">Saving…</string>
+    <string name="fill_both_fields">Fill both fields: native and target language</string>
+    <string name="no_folders_for_lang">No folders for this language. Create a folder on the main screen.</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="error_prefix">Error: %1$s</string>
+
+    <!-- Folder content -->
+    <string name="folder_empty">No words in this folder yet</string>
+
+    <!-- Training -->
+    <string name="training_title">Training — %1$s</string>
+    <string name="mode_label">Training mode</string>
+    <string name="filter_section">What to train</string>
+    <string name="filter_all">All words</string>
+    <string name="filter_unlearned">Only unlearned</string>
+    <string name="filter_learned">Only learned</string>
+    <string name="folders_for_training">Folders for training</string>
+    <string name="choose_folders">Choose folders</string>
+    <string name="folders_all">Selected: all folders</string>
+    <string name="folders_none">No folders selected</string>
+    <string name="folders_one">Selected: %1$s</string>
+    <string name="folders_n">Selected folders: %1$d</string>
+    <string name="start_training">Start training</string>
+    <string name="training_rules">Rule: to mark a word as learned, answer it correctly 5 times in a row.</string>
+    <string name="need_more_words">At least %1$d words needed for training. Currently: %2$d</string>
+    <string name="choose_one_folder">Choose at least one folder for training</string>
+    <string name="progress_label">Progress: %1$d / %2$d • learned: %3$d of %4$d</string>
+    <string name="show_in_native">In English</string>
+    <string name="ai_request">Requesting AI…</string>
+    <string name="ai_failed">Unsuccessful sentence, trying to generate a new one…</string>
+    <string name="exit">Exit</string>
+    <string name="enter_missing_word">Enter the missing word…</string>
+    <string name="enter_in_target">Enter in target language…</string>
+    <string name="enter_in_native">Enter in native language…</string>
+    <string name="check">Check</string>
+    <string name="series_reset">Streak reset</string>
+    <string name="correct_answer">Correct: %1$s</string>
+    <string name="word_learned_toast">🎉 "%1$s" is now learned!</string>
+    <string name="translation_not_available">Translation not available for this sentence</string>
+    <string name="select_folders_title">Folders for training</string>
+    <string name="ok">OK</string>
+    <string name="mode_choice">Choose word</string>
+    <string name="mode_write_target">Write in target language</string>
+    <string name="mode_write_native">Write in native language</string>
+    <string name="mode_write_both">Write in both languages</string>
+    <string name="mode_fill_blank_choice">Fill in missing word 👑</string>
+    <string name="mode_fill_blank_write">Write missing word 👑</string>
+
+    <!-- Grammar -->
+    <string name="grammar_title_he">Hebrew grammar</string>
+    <string name="grammar_title_en">English grammar</string>
+    <string name="grammar_title_es">Spanish grammar</string>
+</resources>

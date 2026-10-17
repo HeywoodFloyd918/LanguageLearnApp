@@ -1,0 +1,28 @@
+/build
+# ===== Android Studio / IntelliJ =====
+*.iml
+.gradle
+.idea/
+.navigation/
+.DS_Store
+/captures
+
+# ===== Секреты и ключи (КРИТИЧНО!) =====
+local.properties
+secrets.properties
+*.jks
+*.keystore
+
+# ===== Сборки =====
+build/
+*.apk
+*.aab
+*.ap_
+*.hprof
+
+# ===== Нативное =====
+.externalNativeBuild
+.cxx
+
+# ===== Прочее =====
+*.log
