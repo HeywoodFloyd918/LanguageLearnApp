@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Мой иврит</string>
+    <string name="app_name">Armond Cards: Learn Languages</string>
 
     <string name="my_folders">Мои папки</string>
     <string name="create_folder">+ Создать папку</string>
@@ -82,6 +82,7 @@
     <string name="search_button">Искать</string>
     <string name="searching">Поиск перевода…</string>
     <string name="found">Найдено: %1$d</string>
+    <string name="show_more_results">Показать оставшиеся %1$d результатов</string>
     <string name="enter_word_for_search">Введите слово для поиска</string>
     <string name="translation_error">Ошибка перевода: %1$s</string>
     <string name="search_tip_title">Совет по поиску</string>

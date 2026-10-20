@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.advancedrussian_hebrewdict"
+    namespace = "com.example.learn_dict_cards_languages_mila"
     compileSdk {
         version = release(37)
     }

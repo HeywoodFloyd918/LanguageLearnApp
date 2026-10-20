@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Hebrew</string>
+    <string name="app_name">Armond Cards: Learn Languages</string>
 
     <!-- Main -->
     <string name="my_folders">My folders</string>
@@ -86,6 +86,7 @@
     <string name="search_button">Search</string>
     <string name="searching">Searching for translation…</string>
     <string name="found">Found: %1$d</string>
+    <string name="show_more_results">Show remaining %1$d results</string>
     <string name="enter_word_for_search">Enter a word to search</string>
     <string name="translation_error">Translation error: %1$s</string>
     <string name="search_tip_title">Search tip</string>

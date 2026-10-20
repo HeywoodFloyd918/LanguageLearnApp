@@ -5,8 +5,9 @@
     android:clickable="true"
     android:focusable="true">
 
-    <!-- ש на заднем плане (отрисовывается первым) -->
+    <!-- ש / A / Ñ на заднем плане -->
     <TextView
+        android:id="@+id/tv_search_letter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"
@@ -19,10 +20,10 @@
         android:shadowRadius="2"
         android:text="ש"
         android:textColor="#FFFFFF"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
-    <!-- Лупа на переднем плане (отрисовывается поверх) -->
+    <!-- Лупа на переднем плане -->
     <ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"

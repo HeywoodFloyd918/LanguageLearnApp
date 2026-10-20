@@ -32,15 +32,15 @@
 # ============================================
 # Модели данных
 # ============================================
--keep class com.example.advancedrussian_hebrewdict.data.Word { *; }
--keep class com.example.advancedrussian_hebrewdict.data.Folder { *; }
--keep class com.example.advancedrussian_hebrewdict.data.FolderWithCount { *; }
--keep class com.example.advancedrussian_hebrewdict.AzureDictionaryHelper$DictionaryEntry { *; }
+-keep class com.example.learn_dict_cards_languages_mila.data.Word { *; }
+-keep class com.example.learn_dict_cards_languages_mila.data.Folder { *; }
+-keep class com.example.learn_dict_cards_languages_mila.data.FolderWithCount { *; }
+-keep class com.example.learn_dict_cards_languages_mila.AzureDictionaryHelper$DictionaryEntry { *; }
 
 # ============================================
 # BuildConfig (страховка для доступа к ключам)
 # ============================================
--keep class com.example.advancedrussian_hebrewdict.BuildConfig { *; }
+-keep class com.example.learn_dict_cards_languages_mila.BuildConfig { *; }
 
 # ============================================
 # Отладочная информация
